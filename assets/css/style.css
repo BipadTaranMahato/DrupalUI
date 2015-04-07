@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-top{
+    margin: 0px;
+    padding: 8px;
+    height: 30px;
+    font-size: small;
+    border-bottom: 1px solid #5b8829;
+    background: none repeat scroll 0 0 #333;
+    color: #f2f7eb;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.logo{
+    position: absolute;
+    float: left;
+    top: 30px;
+    margin: 20px;
+    z-index: 50;
+}
+
+.site-name,
+.site-name-light{
+    position: absolute;
+    float: left;
+    top: 60px;
+    left: 80px;
+    z-index: 50;
+}
+
+.site-name-light{
+    color: #ffffff;
+}
+
+.navigation,
+.navigation-light{
+    display: inline-block;
+    margin: 50px;
+    padding-left: 350px;
+    z-index: 20;
+}
+
+.navigation-light{
+    color: #ffffff;
+}
+
+.menu-item{
+    float: left;
+    font-size: small;
+    list-style: none;
+    padding: 6px 13px;
+}
+
+.menu-link,
+.menu-link-light{
+    padding: 6px 13px;
+    color: #0f0f0f;
+    text-decoration: none;
+    z-index: 20;
+}
+.menu-link-light{
+    color: #ffffff;
+}
+.menu-link:hover{
+    background: none repeat scroll 0 0 #f2f7eb;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #5b8829;
+    z-index: 20;
+}
+
+.menu-bg{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding-top: 400px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: none;
+    background: none repeat scroll 0 0 #5b516d;
+    z-index: -1;
+    border-radius: 10px;
+    transition: height 0.3s ease-in-out 0s;
+}
+
+.slider{
+    position: relative;
+    height: 350px;
+    background: url("../img/slide_back.jpg");
+    z-index: -200;
+}
+.slider-overlay{
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    background: #204d74;
+    z-index: -200;
+}
